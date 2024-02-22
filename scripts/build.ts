@@ -1,21 +1,24 @@
-import { resolve } from 'node:path';
-import { build } from 'vite';
-import { rollup } from 'rollup';
-import { emptyDirSync } from 'fs-extra';
-import dts from 'rollup-plugin-dts';
+import { fileURLToPath } from 'node:url'
+import { dirname, resolve } from 'node:path'
+import { build } from 'vite'
+import { rollup } from 'rollup'
+import { emptyDirSync } from 'fs-extra'
+import dts from 'rollup-plugin-dts'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
 
 /** 项目根目录 */
-const rootPath = resolve(__dirname, '../');
+const rootPath = resolve(__dirname, '../')
 /** 代码根目录 */
-const srcPath = resolve(rootPath, 'src');
+const srcPath = resolve(rootPath, 'src')
 /** 打包目录 */
-const buildPath = resolve(rootPath, 'dist');
+const buildPath = resolve(rootPath, 'dist')
 /** 入口文件 */
 const entry = resolve(srcPath, 'index.ts');
 
 (async () => {
   // 清空输出目录
-  emptyDirSync(resolve(rootPath, 'dist'));
+  emptyDirSync(resolve(rootPath, 'dist'))
 
   // 打包代码
   await build({
@@ -34,7 +37,7 @@ const entry = resolve(srcPath, 'index.ts');
         external: ['unocss'],
       },
     },
-  });
+  })
 
   // 打包声明文件
   await rollup({
@@ -49,6 +52,6 @@ const entry = resolve(srcPath, 'index.ts');
     bundle.write({
       file: resolve(buildPath, 'index.d.ts'),
       format: 'es',
-    });
-  });
-})();
+    })
+  })
+})()
