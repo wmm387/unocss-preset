@@ -4,15 +4,17 @@
 name: Node.js Package
 
 on:
-  release:
-    types: [released]
+  push:
+    branches:
+      - main
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: pnpm/setup-node@v2
+      - uses: actions/setup-node@v3
+      - uses: pnpm/action-setup@v2
         with:
           node-version: 18
           registry-url: https://registry.npmjs.org/
