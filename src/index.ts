@@ -7,7 +7,7 @@ interface Options {
 }
 
 const presetWmm = (options?: Options): Preset => {
-  let colors
+  let colors = {}
   if (options?.enableElementPlusColor) {
     colors = {
       bg_color: 'var(--el-bg-color)',
