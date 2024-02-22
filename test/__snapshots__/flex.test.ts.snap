@@ -1,0 +1,78 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`flex > autocomplete 1`] = `
+[
+  "flex-a",
+  "flex-b",
+  "flex-c",
+  "flex-e",
+  "flex-s",
+  "flex-v",
+]
+`;
+
+exports[`flex > autocomplete 2`] = `
+[
+  "flex-aa",
+  "flex-ab",
+  "flex-ac",
+  "flex-ae",
+  "flex-as",
+  "flex-av",
+]
+`;
+
+exports[`flex > autocomplete 3`] = `
+[
+  "flex-ba",
+  "flex-bb",
+  "flex-bc",
+  "flex-be",
+  "flex-bs",
+  "flex-bv",
+]
+`;
+
+exports[`flex > autocomplete 4`] = `
+[
+  "flex-ca",
+  "flex-cb",
+  "flex-cc",
+  "flex-ce",
+  "flex-cs",
+  "flex-cv",
+]
+`;
+
+exports[`flex > autocomplete 5`] = `
+[
+  "flex-ea",
+  "flex-eb",
+  "flex-ec",
+  "flex-ee",
+  "flex-es",
+  "flex-ev",
+]
+`;
+
+exports[`flex > autocomplete 6`] = `
+[
+  "flex-sa",
+  "flex-sb",
+  "flex-sc",
+  "flex-se",
+  "flex-ss",
+  "flex-sv",
+]
+`;
+
+exports[`flex > autocomplete 7`] = `
+[
+  "flex-va",
+  "flex-vb",
+  "flex-vc",
+  "flex-ve",
+  "flex-vs",
+  "flex-vv",
+]
+`;

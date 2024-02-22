@@ -1,0 +1,341 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`position > autocomplete 1`] = `
+[
+  "abs-inset-x-0",
+  "abs-inset-x-1",
+  "abs-inset-x-2",
+  "abs-inset-x-3",
+  "abs-inset-x-4",
+  "abs-inset-x-5",
+  "abs-inset-x-6",
+  "abs-inset-x-8",
+  "abs-inset-x-10",
+  "abs-inset-x-12",
+  "abs-inset-x-24",
+  "abs-inset-x-36",
+]
+`;
+
+exports[`position > autocomplete 2`] = `
+[
+  "abs-inset-y-0",
+  "abs-inset-y-1",
+  "abs-inset-y-2",
+  "abs-inset-y-3",
+  "abs-inset-y-4",
+  "abs-inset-y-5",
+  "abs-inset-y-6",
+  "abs-inset-y-8",
+  "abs-inset-y-10",
+  "abs-inset-y-12",
+  "abs-inset-y-24",
+  "abs-inset-y-36",
+]
+`;
+
+exports[`position > autocomplete 3`] = `
+[
+  "abs-top-0",
+  "abs-top-1",
+  "abs-top-2",
+  "abs-top-3",
+  "abs-top-4",
+  "abs-top-5",
+  "abs-top-6",
+  "abs-top-8",
+  "abs-top-10",
+  "abs-top-12",
+  "abs-top-24",
+  "abs-top-36",
+]
+`;
+
+exports[`position > autocomplete 4`] = `
+[
+  "abs-t-0",
+  "abs-t-1",
+  "abs-t-2",
+  "abs-t-3",
+  "abs-t-4",
+  "abs-t-5",
+  "abs-t-6",
+  "abs-t-8",
+  "abs-t-10",
+  "abs-t-12",
+  "abs-t-24",
+  "abs-t-36",
+]
+`;
+
+exports[`position > autocomplete 5`] = `
+[
+  "abs-left-0",
+  "abs-left-1",
+  "abs-left-2",
+  "abs-left-3",
+  "abs-left-4",
+  "abs-left-5",
+  "abs-left-6",
+  "abs-left-8",
+  "abs-left-10",
+  "abs-left-12",
+  "abs-left-24",
+  "abs-left-36",
+]
+`;
+
+exports[`position > autocomplete 6`] = `
+[
+  "abs-l-0",
+  "abs-l-1",
+  "abs-l-2",
+  "abs-l-3",
+  "abs-l-4",
+  "abs-l-5",
+  "abs-l-6",
+  "abs-l-8",
+  "abs-l-10",
+  "abs-l-12",
+  "abs-l-24",
+  "abs-l-36",
+]
+`;
+
+exports[`position > autocomplete 7`] = `
+[
+  "abs-right-0",
+  "abs-right-1",
+  "abs-right-2",
+  "abs-right-3",
+  "abs-right-4",
+  "abs-right-5",
+  "abs-right-6",
+  "abs-right-8",
+  "abs-right-10",
+  "abs-right-12",
+  "abs-right-24",
+  "abs-right-36",
+]
+`;
+
+exports[`position > autocomplete 8`] = `
+[
+  "abs-r-0",
+  "abs-r-1",
+  "abs-r-2",
+  "abs-r-3",
+  "abs-r-4",
+  "abs-r-5",
+  "abs-r-6",
+  "abs-r-8",
+  "abs-r-10",
+  "abs-r-12",
+  "abs-r-24",
+  "abs-r-36",
+]
+`;
+
+exports[`position > autocomplete 9`] = `
+[
+  "abs-bottom-0",
+  "abs-bottom-1",
+  "abs-bottom-2",
+  "abs-bottom-3",
+  "abs-bottom-4",
+  "abs-bottom-5",
+  "abs-bottom-6",
+  "abs-bottom-8",
+  "abs-bottom-10",
+  "abs-bottom-12",
+  "abs-bottom-24",
+  "abs-bottom-36",
+]
+`;
+
+exports[`position > autocomplete 10`] = `
+[
+  "abs-b-0",
+  "abs-b-1",
+  "abs-b-2",
+  "abs-b-3",
+  "abs-b-4",
+  "abs-b-5",
+  "abs-b-6",
+  "abs-b-8",
+  "abs-b-10",
+  "abs-b-12",
+  "abs-b-24",
+  "abs-b-36",
+]
+`;
+
+exports[`position > autocomplete 11`] = `
+[
+  "fixed-inset-x-0",
+  "fixed-inset-x-1",
+  "fixed-inset-x-2",
+  "fixed-inset-x-3",
+  "fixed-inset-x-4",
+  "fixed-inset-x-5",
+  "fixed-inset-x-6",
+  "fixed-inset-x-8",
+  "fixed-inset-x-10",
+  "fixed-inset-x-12",
+  "fixed-inset-x-24",
+  "fixed-inset-x-36",
+]
+`;
+
+exports[`position > autocomplete 12`] = `
+[
+  "fixed-inset-y-0",
+  "fixed-inset-y-1",
+  "fixed-inset-y-2",
+  "fixed-inset-y-3",
+  "fixed-inset-y-4",
+  "fixed-inset-y-5",
+  "fixed-inset-y-6",
+  "fixed-inset-y-8",
+  "fixed-inset-y-10",
+  "fixed-inset-y-12",
+  "fixed-inset-y-24",
+  "fixed-inset-y-36",
+]
+`;
+
+exports[`position > autocomplete 13`] = `
+[
+  "fixed-top-0",
+  "fixed-top-1",
+  "fixed-top-2",
+  "fixed-top-3",
+  "fixed-top-4",
+  "fixed-top-5",
+  "fixed-top-6",
+  "fixed-top-8",
+  "fixed-top-10",
+  "fixed-top-12",
+  "fixed-top-24",
+  "fixed-top-36",
+]
+`;
+
+exports[`position > autocomplete 14`] = `
+[
+  "fixed-t-0",
+  "fixed-t-1",
+  "fixed-t-2",
+  "fixed-t-3",
+  "fixed-t-4",
+  "fixed-t-5",
+  "fixed-t-6",
+  "fixed-t-8",
+  "fixed-t-10",
+  "fixed-t-12",
+  "fixed-t-24",
+  "fixed-t-36",
+]
+`;
+
+exports[`position > autocomplete 15`] = `
+[
+  "fixed-left-0",
+  "fixed-left-1",
+  "fixed-left-2",
+  "fixed-left-3",
+  "fixed-left-4",
+  "fixed-left-5",
+  "fixed-left-6",
+  "fixed-left-8",
+  "fixed-left-10",
+  "fixed-left-12",
+  "fixed-left-24",
+  "fixed-left-36",
+]
+`;
+
+exports[`position > autocomplete 16`] = `
+[
+  "fixed-l-0",
+  "fixed-l-1",
+  "fixed-l-2",
+  "fixed-l-3",
+  "fixed-l-4",
+  "fixed-l-5",
+  "fixed-l-6",
+  "fixed-l-8",
+  "fixed-l-10",
+  "fixed-l-12",
+  "fixed-l-24",
+  "fixed-l-36",
+]
+`;
+
+exports[`position > autocomplete 17`] = `
+[
+  "fixed-right-0",
+  "fixed-right-1",
+  "fixed-right-2",
+  "fixed-right-3",
+  "fixed-right-4",
+  "fixed-right-5",
+  "fixed-right-6",
+  "fixed-right-8",
+  "fixed-right-10",
+  "fixed-right-12",
+  "fixed-right-24",
+  "fixed-right-36",
+]
+`;
+
+exports[`position > autocomplete 18`] = `
+[
+  "fixed-r-0",
+  "fixed-r-1",
+  "fixed-r-2",
+  "fixed-r-3",
+  "fixed-r-4",
+  "fixed-r-5",
+  "fixed-r-6",
+  "fixed-r-8",
+  "fixed-r-10",
+  "fixed-r-12",
+  "fixed-r-24",
+  "fixed-r-36",
+]
+`;
+
+exports[`position > autocomplete 19`] = `
+[
+  "fixed-bottom-0",
+  "fixed-bottom-1",
+  "fixed-bottom-2",
+  "fixed-bottom-3",
+  "fixed-bottom-4",
+  "fixed-bottom-5",
+  "fixed-bottom-6",
+  "fixed-bottom-8",
+  "fixed-bottom-10",
+  "fixed-bottom-12",
+  "fixed-bottom-24",
+  "fixed-bottom-36",
+]
+`;
+
+exports[`position > autocomplete 20`] = `
+[
+  "fixed-b-0",
+  "fixed-b-1",
+  "fixed-b-2",
+  "fixed-b-3",
+  "fixed-b-4",
+  "fixed-b-5",
+  "fixed-b-6",
+  "fixed-b-8",
+  "fixed-b-10",
+  "fixed-b-12",
+  "fixed-b-24",
+  "fixed-b-36",
+]
+`;
