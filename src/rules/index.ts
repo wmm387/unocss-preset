@@ -3,12 +3,18 @@ import { anyRule } from './any'
 import { flexRule } from './flex'
 import { gradientRules } from './gradient'
 import { positionRules } from './position'
+import type { Options } from '@/types'
 
-const rules: Rule[] = [
-  anyRule,
-  flexRule,
-  ...gradientRules,
-  ...positionRules,
-]
+const genRules = (options?: Options): Rule[] => {
+  const rules = [
+    flexRule,
+    ...gradientRules,
+    ...positionRules,
+  ]
+  if (options?.anyStyle) {
+    rules.push(anyRule)
+  }
+  return rules
+}
 
-export default rules
+export default genRules

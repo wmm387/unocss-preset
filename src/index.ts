@@ -1,10 +1,7 @@
 import type { Preset } from 'unocss'
+import genRules from './rules'
 import shortcuts from './shortcuts'
-import rules from './rules'
-
-interface Options {
-  enableElementPlusColor?: boolean
-}
+import type { Options } from './types'
 
 const presetWmm = (options?: Options): Preset => {
   let colors = {}
@@ -23,7 +20,7 @@ const presetWmm = (options?: Options): Preset => {
   return {
     name: '@wmm387/unocss-preset',
     shortcuts,
-    rules,
+    rules: genRules(options),
     theme: { colors },
   }
 }
