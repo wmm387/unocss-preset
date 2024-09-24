@@ -3,7 +3,7 @@ import { positionMap } from '@unocss/preset-mini/utils'
 
 export const gradientRules: Rule[] = [
   [
-    /^bg-lg-(.*?)-(.*)$/,
+    /^bg-lg-([^-\n]+)-(.*)$/,
     ([, p, colors]) => {
       let pos = positionMap[p]
       if (pos) pos = `to ${pos}`
@@ -18,7 +18,7 @@ export const gradientRules: Rule[] = [
     },
   ],
   [
-    /^text-clg-(.*?)-(.*)$/,
+    /^text-clg-([^-\n]+)-(.*)$/,
     ([, p, colors]) => {
       let pos = positionMap[p]
       if (pos) pos = `to ${pos}`

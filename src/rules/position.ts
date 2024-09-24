@@ -21,7 +21,7 @@ export const positionRules: Rule[] = [
     },
   ],
   [
-    /^(abs|fixed)-(.+?)-(.+)$/,
+    /^(abs|fixed)-([^-\n]+)-(.+)$/,
     ([, , p, size]) => {
       const value = handler.bracket.cssvar.auto.fraction.rem(size)
       if (value !== null && p in positionMap) {

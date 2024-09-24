@@ -1,8 +1,8 @@
-import { createGenerator, presetAttributify, presetIcons, presetUno } from 'unocss'
-import { describe, expect, it } from 'vitest'
+import presetWmm from '@/index'
 import postcss from 'postcss'
 import postcssJs from 'postcss-js'
-import presetWmm from '@/index'
+import { createGenerator, presetAttributify, presetIcons, presetUno } from 'unocss'
+import { describe, expect, it } from 'vitest'
 
 describe('any', () => {
   const generator = createGenerator({

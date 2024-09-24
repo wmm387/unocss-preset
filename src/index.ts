@@ -1,7 +1,7 @@
 import type { Preset } from 'unocss'
+import type { Options } from './types'
 import genRules from './rules'
 import shortcuts from './shortcuts'
-import type { Options } from './types'
 
 const presetWmm = (options?: Options): Preset => {
   let colors = {}

@@ -10,7 +10,7 @@ const justifyItemsMap: Record<string, string> = {
 }
 
 export const flexRule: Rule = [
-  /^flex(c?)-([s|c|e|b|a|v]{2})$/,
+  /^flex(c?)-([scebav]{2})$/,
   ([, column, val]) => {
     const justify = justifyItemsMap[val[0]]
     const items = justifyItemsMap[val[1]]

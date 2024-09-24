@@ -1,9 +1,9 @@
-import { createGenerator, presetAttributify, presetUno } from 'unocss'
-import { describe, expect, it } from 'vitest'
+import presetWmm from '@/index'
 import { createAutocomplete } from '@unocss/autocomplete'
 import postcss from 'postcss'
 import postcssJs from 'postcss-js'
-import presetWmm from '@/index'
+import { createGenerator, presetAttributify, presetUno } from 'unocss'
+import { describe, expect, it } from 'vitest'
 
 describe('position', () => {
   const generator = createGenerator({
