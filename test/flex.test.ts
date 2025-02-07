@@ -5,8 +5,8 @@ import postcssJs from 'postcss-js'
 import { createGenerator, presetAttributify, presetUno } from 'unocss'
 import { describe, expect, it } from 'vitest'
 
-describe('flex', () => {
-  const generator = createGenerator({
+describe('flex', async () => {
+  const generator = await createGenerator({
     presets: [
       presetAttributify(),
       presetUno(),

@@ -4,8 +4,8 @@ import postcssJs from 'postcss-js'
 import { createGenerator, presetAttributify, presetIcons, presetUno } from 'unocss'
 import { describe, expect, it } from 'vitest'
 
-describe('any', () => {
-  const generator = createGenerator({
+describe('any', async () => {
+  const generator = await createGenerator({
     presets: [
       presetAttributify(),
       presetIcons(),

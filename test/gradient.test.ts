@@ -4,8 +4,8 @@ import postcssJs from 'postcss-js'
 import { createGenerator, presetAttributify, presetUno } from 'unocss'
 import { describe, expect, it } from 'vitest'
 
-describe('gradient', () => {
-  const generator = createGenerator({
+describe('gradient', async () => {
+  const generator = await createGenerator({
     presets: [
       presetAttributify(),
       presetUno(),

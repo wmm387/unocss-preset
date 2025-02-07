@@ -1,9 +1,9 @@
-import { fileURLToPath } from 'node:url'
 import { dirname, resolve } from 'node:path'
-import { build } from 'vite'
-import { rollup } from 'rollup'
+import { fileURLToPath } from 'node:url'
 import { emptyDirSync } from 'fs-extra'
+import { rollup } from 'rollup'
 import dts from 'rollup-plugin-dts'
+import { build } from 'vite'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
