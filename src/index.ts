@@ -17,9 +17,14 @@ const presetWmm = (options?: Options): Preset => {
       border_color: 'var(--el-border-color)',
     }
   }
+  const contentInclude: Array<string | RegExp> = [/\.(vue|svelte|[jt]sx|mdx?|astro|elm|php|phtml|html)($|\?)/]
+  if (options?.jts) {
+    contentInclude.push('src/**/*.{js,ts}')
+  }
   return {
     name: '@wmm387/unocss-preset',
     shortcuts,
+    content: { pipeline: { include: contentInclude } },
     rules: genRules(options),
     theme: { colors },
   }
